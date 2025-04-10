@@ -236,7 +236,7 @@ export const Navbar = () => {
                                     <MenubarSubContent>
                                     <MenubarItem onClick={() => editor?.chain().focus().toggleBold().run()}>
                                             <FaCode className="size-4 mr-2"/>
-                                            <a href={`https://github.com/brajnyk/noteminds`} target="_blank" rel="noopener noreferrer">
+                                            <a href={`https://github.com/brajnyk/mindsdocs`} target="_blank" rel="noopener noreferrer">
                                                 Go to the GitHub project
                                             </a>
                                     </MenubarItem>
