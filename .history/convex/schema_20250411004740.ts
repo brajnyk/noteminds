@@ -5,7 +5,7 @@ export default defineSchema({
     documents: defineTable({
         title: v.string(),
         initialContent: v.optional(v.string()),
-        ownerId: v.string(),
+        ownerID: v.string(),
         roomID: v.optional(v.string()),
         organizationId: v.optional(v.string()),
     })
@@ -14,5 +14,5 @@ export default defineSchema({
         .searchIndex("search_title", {
             searchField: "title",
             filterFields: ["ownerId", "organizationId"],
-        }),
+        }},
   });

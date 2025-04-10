@@ -23,7 +23,7 @@ const Home = () => {
       <div className="mt-16">
         <TemplatesGallery />
         {documents?.map((document) =>(
-          <span key={document._id}>{document.title}</span>
+          <span>{document.title}</span>
         ))}
       </div>
     </div>
